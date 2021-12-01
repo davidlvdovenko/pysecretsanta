@@ -133,7 +133,7 @@ try:
         sentto = secretsantaemailarray[Person]
 
         message = MIMEMultipart("alternative")
-        message["Subject"] = "Winter Camp Secret Santa"
+        message["Subject"] = tabletitle
         message["From"] = smtpuser
         message["To"] = sentto
 
