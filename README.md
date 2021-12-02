@@ -16,14 +16,14 @@ NOTE: If you are interested in creating a GUI for this script, please reach out 
 
 Please visit the following link to download all files needed.
 
-https://github.com/davidlvdovenko/pysecretsanta
+    https://github.com/davidlvdovenko/pysecretsanta
 
 Once you have downloaded the zip file, extract it to find the files inside. This repository contains the following files:
 
-- SecretSanta.exe – This is the main executable. You will run this when you have completed the setup.
-- SecretSanta.py – This is the same thing as the executable – only here you can change the code to your liking. You might have to install additional packages to get this to work.
-- list.csv – This is an example of a list for the program to use. I will guide you through how to make your own list in a bit.
-- config.json – This is your configuration file. I will explain everything you need to do to set this up.
+    - SecretSanta.exe – This is the main executable. You will run this when you have completed the setup.
+    - SecretSanta.py – This is the same thing as the executable – only here you can change the code to your liking. You might have to install additional packages to get this to work.
+    - list.csv – This is an example of a list for the program to use. I will guide you through how to make your own list in a bit.
+    - config.json – This is your configuration file. I will explain everything you need to do to set this up.
 
 ## List Setup
 The list is simply as CSV file (Comma Seperated Value) that can be created using almost any spreadsheet editor. I will show you how to do it inside of Microsoft Excel. Open up Excel and in the first column write down the list of all the names of people participated and in the second column the associated email addresses.
@@ -40,16 +40,16 @@ Our last step is to finish editing the config file. Go ahead and open up config.
 
 Please edit all the following fields:
 
-title: This will be the title to the masterlist.txt file and subject of the email.
-body: This is the first line of the email. After this line, the recipient will be listed.
-body2: This is for the second line, use this for whatever you want.
-body3: This is for the third line, use this for whatever you want.
-signature: This is the name the email gets signed with.
-listname: This specifies the name of the list file ending in .csv.
-smtprelay: This specifies the email server (Use smtp.gmail.com if you are using google)
-smtpport: This specifies the smtp port of the email server (Use 587 if you are using google)
-user: This specifies the username of the email server (This is your email if you are using google)
-password: This specifies the password for the user (Email Password)
+    title: This will be the title to the masterlist.txt file and subject of the email.
+    body: This is the first line of the email. After this line, the recipient will be listed.
+    body2: This is for the second line, use this for whatever you want.
+    body3: This is for the third line, use this for whatever you want.
+    signature: This is the name the email gets signed with.
+    listname: This specifies the name of the list file ending in .csv.
+    smtprelay: This specifies the email server (Use smtp.gmail.com if you are using google)
+    smtpport: This specifies the smtp port of the email server (Use 587 if you are using google)
+    user: This specifies the username of the email server (This is your email if you are using google)
+    password: This specifies the password for the user (Email Password)
 
 ## All Done
 All configuration is complete and ready to go. Make sure all the files including the .exe file are in the same folder/directory and go ahead and launch SecretSanta.exe.
