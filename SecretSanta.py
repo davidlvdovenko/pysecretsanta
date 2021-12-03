@@ -1,3 +1,7 @@
+# Secret Santa Python Script
+# Created by David Vdovenko
+# A simple python script that takes a list of names, draws and sends emails to all Santas telling them who their recipient is...
+
 # Textline GUI
 print("""
 Welcome to Secret Santa Python Script
@@ -12,9 +16,7 @@ print("Importing Libraries...")
 ## Imports (External)
 try:
     import json
-    from os import execlp
     from prettytable import prettytable
-    from prettytable import from_csv
     import csv
     import random
     import smtplib
