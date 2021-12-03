@@ -57,3 +57,5 @@ All configuration is complete and ready to go. Make sure all the files including
 Click enter to continue. If everything goes right – you should be greated with a congratulations page at the end of the script. In the same directory you will also find the masterlist.txt file. This file contains list of all Santas and Recipients. Only open this file if absolutly needed or if someone thought they could get away with not getting someone a gift LOL.
 
 You are free to use this script however you like. Please share with your friends and if you use any part of this code, a mention in the form of a comment would be greatly appreciated. Merry Christmas Everyone and enjoy!
+
+Test
