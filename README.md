@@ -41,10 +41,11 @@ Our last step is to finish editing the config file. Go ahead and open up config.
 Please edit all the following fields:
 
     title: This will be the title to the masterlist.txt file and subject of the email.
-    body: This is the first line of the email. After this line, the recipient will be listed.
-    body2: This is for the second line, use this for whatever you want.
-    body3: This is for the third line, use this for whatever you want.
+    location: Where the event will take place.
+    date: Time and Date the exchange will take place
+    description: Use this to greet participants or describe rules for the Secret Santa game.
     signature: This is the name the email gets signed with.
+    image: Email image link. Set to "http://davidlvdovenko.com/wp-content/uploads/2021/12/christmas.png" by default.
     listname: This specifies the name of the list file ending in .csv.
     smtprelay: This specifies the email server (Use smtp.gmail.com if you are using google)
     smtpport: This specifies the smtp port of the email server (Use 587 if you are using google)
