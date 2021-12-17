@@ -1,15 +1,15 @@
 {
     "title":"Secret Santa",
-    "body":"Welcome to Secret Santa. Your recipient (who you are giving the gift to) is: ",
-    "body2":"Please remember the minimum price is set at $20... Please do this in advance and be thoughful :)",
-    "body3":"Please let the organizers know if you have any questions...",
-    "signature":"Organizing Team",
+    "location":"Winter Cabin",
+    "date":"December 25th, 2021 7:00PM",
+    "description":"Please let the party organizer know if you have any questions...",
+    "signature":"Party Team",
+    "image":"http://davidlvdovenko.com/wp-content/uploads/2021/12/christmas.png",
     
     "listname":"list.csv",
 
     "smtprelay":"smtp.gmail.com",
     "smtpport":"587",
-    "user":"email@gmail.com",
-    "password":"emailPassword"
-
+    "user":"email",
+    "password":"password"
 }
